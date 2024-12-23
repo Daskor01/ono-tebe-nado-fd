@@ -91,11 +91,15 @@
 }
 
 .aligned-text_center {
-  margin-left: 331px;
+  display: block;
+  text-align: center;
+  margin-left: 30px;
 }
   
 .aligned-text_right {
-  margin-left: 613px;
+  display: block;
+  text-align: right;
+  margin-right: -30px;
 }
 
 .description {
@@ -179,15 +183,15 @@
 }
 
 .card_type_film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 
@@ -272,10 +276,6 @@
 
 .limit-width-content {
   max-width: 688px;
-}
-
-.text-wrap {
-  margin: 0;
 }
 
 
